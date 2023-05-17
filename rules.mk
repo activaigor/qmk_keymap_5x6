@@ -8,8 +8,6 @@ BOOTLOADER = tinyuf2
 CONVERT_TO = stemcell
 
 
-
-
 # Build Options
 #   change yes to no to disable
 #
@@ -26,7 +24,9 @@ SPLIT_KEYBOARD = yes
 LAYOUTS = split_3x5_3
 
 POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
+#POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
+POINTING_DEVICE_DRIVER = cirque_pinnacle_spi
+CIRQUE_PINNACLE_DIAMETER_MM = 50
 MOUSE_SHARED_EP = no # Unify multiple HID interfaces into a single Endpoint
 KEYBOARD_SHARED_EP = yes
 
