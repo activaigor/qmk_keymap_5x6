@@ -64,7 +64,7 @@
       "LGUI(KC_J)",
       "LGUI(KC_K)",
       "LGUI(KC_L)",
-      "LGUI(KC_SCLN)",
+      "KC_QUOT",
       "QK_BOOT",
       "EE_CLR",
       "SGUI(KC_C)",
@@ -79,7 +79,7 @@
       "KC_TRNS",
       "KC_LSFT",
       "LGUI(KC_LBRC)",
-      "MO(3)",
+      "LGUI(KC_SPC)",
       "LGUI(KC_RBRC)"
     ],
     [
