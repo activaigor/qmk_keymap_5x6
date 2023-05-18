@@ -52,7 +52,7 @@
       "KC_VOLU",
       "KC_NO",
       "KC_LPRN",
-      "LALT(KC_I)",
+      "LAG(KC_I)",
       "LGUI(KC_O)",
       "KC_LBRC",
       "KC_LSFT",
@@ -78,9 +78,9 @@
       "KC_A",
       "KC_TRNS",
       "KC_LSFT",
-      "KC_SPC",
+      "LGUI(KC_LBRC)",
       "MO(3)",
-      "KC_A"
+      "LGUI(KC_RBRC)"
     ],
     [
       "KC_EXLM",
