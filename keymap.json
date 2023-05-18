@@ -40,7 +40,7 @@
       "MO(2)",
       "KC_LCTL",
       "KC_LSFT",
-      "LT(4,KC_LBRC)",
+      "LSFT_T(KC_LBRC)",
       "KC_SPC",
       "LT(3,KC_RBRC)"
     ],
