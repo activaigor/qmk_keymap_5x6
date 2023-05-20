@@ -111,14 +111,14 @@
       "KC_GRV",
       "KC_MINS",
       "KC_QUES",
-      "KC_DOT",
+      "KC_GT",
       "KC_TILD",
       "KC_TRNS",
       "MO(3)",
       "KC_LSFT",
-      "KC_LPRN",
+      "KC_LSFT",
       "KC_TAB",
-      "KC_RPRN"
+      "KC_EXLM"
     ],
     [
       "KC_1",
