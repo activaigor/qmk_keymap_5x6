@@ -40,7 +40,7 @@
       "MO(2)",
       "KC_LCTL",
       "KC_LSFT",
-      "KC_LSFT",
+      "KC_RSFT",
       "KC_SPC",
       "MO(3)"
     ],
@@ -116,9 +116,9 @@
       "KC_TRNS",
       "MO(3)",
       "KC_LSFT",
-      "KC_LSFT",
+      "KC_LPRN",
       "KC_TAB",
-      "KC_EXLM"
+      "KC_RPRN"
     ],
     [
       "KC_1",
