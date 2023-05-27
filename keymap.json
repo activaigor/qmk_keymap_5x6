@@ -42,7 +42,7 @@
       "MO(1)",
       "KC_SCLN",
       "KC_SPC",
-      "MO(3)"
+      "LT(3,KC_LBRC)"
     ],
     [
       "LGUI(KC_Q)",
