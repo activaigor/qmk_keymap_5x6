@@ -37,12 +37,12 @@
       "KC_COMM",
       "KC_DOT",
       "LT(4,KC_SLSH)",
-      "MO(2)",
+      "OSL(2)",
       "KC_LCTL",
       "MO(1)",
       "KC_SCLN",
       "KC_SPC",
-      "LT(3,KC_LBRC)"
+      "MO(3)"
     ],
     [
       "LGUI(KC_Q)",
