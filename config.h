@@ -23,6 +23,7 @@
 #define USE_SERIAL
 #define SERIAL_USART_DRIVER SD2
 #define SOFT_SERIAL_PIN D2
+#define DEBOUNCE 45
 
 /* CRC. 
 #define CRC8_USE_TABLE
