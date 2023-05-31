@@ -64,7 +64,7 @@
       "LGUI(KC_J)",
       "LGUI(KC_K)",
       "LGUI(KC_L)",
-      "RCTL(KC_SPC)",
+      "KC_CAPS",
       "KC_LSFT",
       "EE_CLR",
       "SGUI(KC_C)",
