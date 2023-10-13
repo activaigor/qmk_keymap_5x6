@@ -116,9 +116,9 @@
       "KC_TRNS",
       "MO(3)",
       "KC_LSFT",
-      "KC_LPRN",
-      "KC_LPRN",
-      "KC_RPRN"
+      "LCTL(KC_SPC)",
+      "KC_SPC",
+      "LCTL(KC_SPC)"
     ],
     [
       "KC_1",
