@@ -197,11 +197,11 @@
       "KC_NO"
     ],
     [
-      "UP(YI_LOWER, YI_UPPER)",
-      "UP(CC_LOWER, CC_UPPER)",
-      "UP(UU_LOWER, UU_UPPER)",
-      "UP(KA_LOWER, KA_UPPER)",
-      "UP(EE_LOWER, EE_UPPER)",
+      "UP(0, 1)",
+      "UP(2, 3)",
+      "UP(4, 5)",
+      "UP(6, 7)",
+      "UP(8, 9)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
