@@ -197,8 +197,8 @@
       "KC_NO"
     ],
     [
-      "UP_YI",
-      "UP_CC",
+      "UP(0, 1)",
+      "UP(2, 3)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
