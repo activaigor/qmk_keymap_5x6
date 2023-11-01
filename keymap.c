@@ -21,3 +21,9 @@ const uint32_t unicode_map[] PROGMEM = {
     [EE_UPPER] = 0x0415,
 };
 
+#define XP_YI XP(YI_LOWER, YI_UPPER)
+#define XP_CC XP(CC_LOWER, CC_UPPER)
+#define XP_UU XP(UU_LOWER, UU_UPPER)
+#define XP_KA XP(KA_LOWER, KA_UPPER)
+#define XP_EE XP(EE_LOWER, EE_UPPER)
+
