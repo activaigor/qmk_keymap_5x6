@@ -1,5 +1,4 @@
 #include QMK_KEYBOARD_H
-#include "source.h"
 
 enum unicode_names {
     YI_LOWER,
