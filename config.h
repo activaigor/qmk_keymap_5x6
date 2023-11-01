@@ -39,7 +39,7 @@ enum unicode_names {
     EF_UPPER,
 };
 
-const uint32_t unicode_map[] PROGMEM = {
+const uint32_t PROGMEM unicode_map[] = {
     [YI_LOWER] = 0x0439,
     [YI_UPPER] = 0x0419,
     [CC_LOWER] = 0x0446,
