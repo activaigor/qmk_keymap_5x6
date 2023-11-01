@@ -10,7 +10,7 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - keymap.c
+        - keymap.json
 # End of json file list
         keyboard: [samoklava]
         conv: [stemcell]
@@ -43,7 +43,7 @@ jobs:
       
     - name: Build firmware
       working-directory: users/${{ github.actor }}
-      run: qmk -v compile -j 3 ${{ env.build_args }}
+      run: qmk -v compile -j 3 ${{ env.build_args }} ${{ matrix.file }}
 
     - name: Rename uf2
       if: ${{ matrix.conv != '' }}
