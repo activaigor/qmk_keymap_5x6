@@ -2,10 +2,16 @@
 
 
 enum unicode_names {
-    DE_LOWER,
-    DE_UPPER,
-    EF_LOWER,
-    EF_UPPER,
+    YI_LOWER,
+    YI_UPPER,
+    CC_LOWER,
+    CC_UPPER,
+    UU_LOWER,
+    UU_UPPER,
+    KA_LOWER,
+    KA_UPPER,
+    EE_LOWER,
+    EE_UPPER,
 };
 
 const uint32_t PROGMEM unicode_map[] = {
