@@ -43,7 +43,7 @@ jobs:
       
     - name: Build firmware
       working-directory: users/${{ github.actor }}
-      run: qmk -v compile -j 3 ${{ env.build_args }} ${{ matrix.file }}
+      run: qmk -v compile -j 3 ${{ env.build_args }}
 
     - name: Rename uf2
       if: ${{ matrix.conv != '' }}
