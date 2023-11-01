@@ -197,11 +197,11 @@
       "KC_NO"
     ],
     [
-      "XP_YI",
-      "XP_CC",
-      "XP_UU",
-      "XP_KA",
-      "XP_EE",
+      "UP(YI_LOWER, YI_UPPER)",
+      "UP(CC_LOWER, CC_UPPER)",
+      "UP(UU_LOWER, UU_UPPER)",
+      "UP(KA_LOWER, KA_UPPER)",
+      "UP(EE_LOWER, EE_UPPER)",
       "KC_NO",
       "KC_NO",
       "KC_NO",
