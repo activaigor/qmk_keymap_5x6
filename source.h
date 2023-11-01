@@ -1,0 +1,2 @@
+#define UP_YI UP(YI_LOWER, YI_UPPER)
+#define UP_CC UP(CC_LOWER, CC_UPPER)

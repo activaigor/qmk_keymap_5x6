@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "source.h"
 
 enum unicode_names {
     YI_LOWER,
@@ -25,8 +26,4 @@ const uint32_t PROGMEM unicode_map[] = {
     [EE_LOWER] = 0x0435,
     [EE_UPPER] = 0x0415,
 };
-
-
-#define UP_YI UP(YI_LOWER, YI_UPPER)
-#define UP_CC UP(CC_LOWER, CC_UPPER)
 
