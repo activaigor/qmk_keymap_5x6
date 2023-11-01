@@ -1,4 +1,4 @@
-SRC += source.c
+SRC += keymap.c
 # MCU name
 # MCU = STM32F411
 # BOARD = STEMCELL
