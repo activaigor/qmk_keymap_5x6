@@ -29,3 +29,40 @@
 /* CRC. 
 #define CRC8_USE_TABLE
 #define CRC8_OPTIMIZE_SPEED */
+
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS
+
+enum unicode_names {
+    DE_LOWER,
+    DE_UPPER,
+    EF_LOWER,
+    EF_UPPER,
+};
+
+// й ц у к е
+// ф і в а п
+// я ч с м и
+
+const uint32_t PROGMEM unicode_map[] = {
+    [YI_LOWER] = 0x0439,  // й
+    [YI_UPPER] = 0x0419,
+
+    [CC_LOWER] = 0x0446,  // ц
+    [CC_UPPER] = 0x0426,
+
+    [UU_LOWER] = 0x0443,  // у
+    [UU_UPPER] = 0x0423,
+
+    [KA_LOWER] = 0x043A,  // к
+    [KA_UPPER] = 0x041A,
+
+    [EE_LOWER] = 0x0435,  // е
+    [EE_UPPER] = 0x0415,
+};
+
+#define XP_YI XP(YI_LOWER, YI_UPPER)
+#define XP_CC XP(CC_LOWER, CC_UPPER)
+#define XP_UU XP(UU_LOWER, UU_UPPER)
+#define XP_KA XP(KA_LOWER, KA_UPPER)
+#define XP_EE XP(EE_LOWER, EE_UPPER)
+

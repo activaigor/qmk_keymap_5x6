@@ -31,3 +31,5 @@ KEYBOARD_SHARED_EP = yes
 
 SERIAL_DRIVER = usart
 DEBOUNCE_TYPE = sym_defer_g
+
+UNICODEMAP_ENABLE = yes
